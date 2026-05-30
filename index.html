@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <link rel="icon" type="image/svg+xml" href="/SeasonalItaly/favicon.svg" />
+    <link rel="apple-touch-icon" href="/SeasonalItaly/apple-touch-icon.png" />
+    <meta name="title" content="SeasonalItaly" />
+    <meta name="description" content="Calendario stagionale di frutta e verdura italiane. Cosa cresce davvero in Italia, mese per mese, senza serre e senza importazioni." />
+    <meta name="keywords" content="stagionalita, frutta, verdura, italia, calendario, mese, produzione, km zero, di stagione" />
+    <meta name="theme-color" content="#f4ecdb" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://archetipico.github.io/SeasonalItaly/" />
+    <meta property="og:title" content="SeasonalItaly" />
+    <meta property="og:description" content="Calendario stagionale di frutta e verdura italiane. Cosa cresce davvero in Italia, mese per mese." />
+    <meta property="og:image" content="https://archetipico.github.io/SeasonalItaly/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:locale" content="it_IT" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SeasonalItaly" />
+    <meta name="twitter:description" content="Calendario stagionale di frutta e verdura italiane." />
+    <meta name="twitter:image" content="https://archetipico.github.io/SeasonalItaly/og.png" />
+    <link rel="canonical" href="https://archetipico.github.io/SeasonalItaly/" />
+    <title>SeasonalItaly</title>
+    <script>
+      (function () {
+        try {
+          var m = document.cookie.match(/(?:^|; )mode=([^;]+)/);
+          var pref = m
+            ? decodeURIComponent(m[1])
+            : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          if (pref === 'dark') document.documentElement.classList.add('dark');
+          var meta = document.querySelector('meta[name="theme-color"]');
+          if (meta) meta.setAttribute('content', pref === 'dark' ? '#16191b' : '#f4ecdb');
+          var l = document.cookie.match(/(?:^|; )lang=([^;]+)/);
+          if (l) {
+            var lang = decodeURIComponent(l[1]).slice(0, 2);
+            if (lang === 'it') document.documentElement.setAttribute('lang', lang);
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

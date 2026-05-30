@@ -1,0 +1,75 @@
+{
+  "brand": "SeasonalItaly",
+  "nav": {
+    "home": "home",
+    "homeTitle": "torna a archetipico.github.io",
+    "disclaimer": "disclaimer",
+    "disclaimerTitle": "leggi il disclaimer"
+  },
+  "months": {
+    "long": ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"],
+    "short": ["gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic"]
+  },
+  "hero": {
+    "titleLead": "Frutta e verdura italiane,",
+    "titleTail": "mese per mese.",
+    "body": "Quando c'è cosa, in Italia. Senza serre né import nascosti.",
+    "thisMonth": "questo mese",
+    "peakCount": "in piena stagione",
+    "items": "alimenti"
+  },
+  "focus": {
+    "label": "il mese in corso",
+    "body": "Qui il meglio del mese.",
+    "fruit": "frutta in piena stagione",
+    "veg": "verdura in piena stagione",
+    "empty": "Niente in piena stagione questo mese. Restano gli inizi e le code di stagione, e le scorte."
+  },
+  "calendar": {
+    "label": "tutto l'anno",
+    "titleLead": "Il calendario completo,",
+    "titleTail": "una riga, dodici mesi.",
+    "body": "Dodici mesi, una riga per voce. Cerca o filtra.",
+    "fruit": "frutta",
+    "veg": "verdura ed erbe",
+    "count": "{{n}} voci",
+    "search": "cerca un alimento",
+    "searchPlaceholder": "pomodoro, limone, tartufo",
+    "noResult": "Nessun risultato per \"{{q}}\". Prova un sinonimo o togli il filtro."
+  },
+  "legend": {
+    "peakTitle": "Piena stagione",
+    "peakBody": "Si raccoglie adesso in Italia.",
+    "shoulderTitle": "Inizio o fine stagione",
+    "shoulderBody": "Se ne trova poco.",
+    "importTitle": "Importato",
+    "importBody": "Sui banchi principalmente perché importato."
+  },
+  "modes": {
+    "all": "tutti",
+    "allHint": "ogni voce",
+    "fruit": "frutta",
+    "veg": "verdura",
+    "now": "in stagione adesso",
+    "nowHint": "in piena stagione o agli estremi questo mese",
+    "italy": "produzione italiana",
+    "italyHint": "esclude gli import"
+  },
+  "row": {
+    "import": "import",
+    "peak": "piena stagione",
+    "shoulder": "inizio o fine stagione",
+    "off": "fuori stagione",
+    "importedSuffix": " (importato)"
+  },
+  "footer": {
+    "eyebrow": "disclaimer",
+    "lead": "Una nota di buon senso, prima di mettere in tavola.",
+    "body": "Le informazioni raccolte qui hanno finalità divulgative e culturali. I calendari di stagionalità sono orientativi, la disponibilità reale varia per regione, varietà, clima e annata. Niente in queste pagine costituisce consulenza medica, nutrizionale, agronomica o di sicurezza alimentare. L'autore pubblica i contenuti in buona fede ma non garantisce completezza né accuratezza, e non si assume responsabilità per decisioni o conseguenze derivanti dal loro utilizzo. Mangiare in modo vario, controllare la provenienza, lavare bene frutta e verdura prima del consumo. Verificare allergie e intolleranze personali e considerare condizioni come il favismo per le fave, la celiachia o altre sensibilità. Funghi, erbe spontanee e bacche selvatiche vanno raccolti e consumati solo da chi sa riconoscerli con certezza, in caso di dubbio rivolgersi a un micologo dell'ASL o lasciare stare. Alcune parti restano tossiche anche quando il frutto è commestibile, ad esempio le foglie del rabarbaro o le bacche acerbe di sambuco. Per dubbi sulla propria alimentazione o salute, consultare un medico o un nutrizionista qualificato."
+  },
+  "toggles": {
+    "theme": "tema",
+    "light": "chiaro",
+    "dark": "scuro"
+  }
+}
