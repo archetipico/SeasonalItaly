@@ -117,9 +117,7 @@ export function Calendario() {
   };
 
   const filterByQuery = (it: Item) =>
-    !query.trim() ||
-    it.name.includes(query.trim().toLowerCase()) ||
-    (it.note ?? "").toLowerCase().includes(query.trim().toLowerCase());
+    !query.trim() || it.name.includes(query.trim().toLowerCase());
 
   const visibleFruits = useMemo(
     () => fruits.filter(filterByMode).filter(filterByQuery),

@@ -16,6 +16,11 @@ export function Hero() {
   return (
     <section className="container pt-12 sm:pt-16 lg:pt-24 pb-12 lg:pb-20">
       <div className="animate-fade-up">
+        <p className="hero-eyebrow">
+          <span className="hero-eyebrow__rule" aria-hidden />
+          <span className="serif-italic">{t("hero.eyebrow")}</span>
+        </p>
+
         <h2
           className="display text-balance text-ink"
           style={{ fontSize: "clamp(2.6rem, 6.6vw, 5.8rem)" }}
@@ -27,32 +32,32 @@ export function Hero() {
           </span>
         </h2>
 
-        <a href="#disclaimer" className="hero-disclaimer-cta">
-          <span aria-hidden className="hero-disclaimer-cta__glyph serif-italic">❦</span>
-          <span className="hero-disclaimer-cta__text">
-            {t("hero.disclaimerCta")}
-          </span>
-          <span aria-hidden className="hero-disclaimer-cta__arrow">↓</span>
-        </a>
-
-        <p className="mt-8 max-w-[58ch] text-[17px] sm:text-[18px] leading-relaxed text-ink/75 text-pretty">
+        <p className="mt-7 max-w-[58ch] text-[17px] sm:text-[18px] leading-relaxed text-ink/75 text-pretty">
           {t("hero.body")}
         </p>
 
-        <div className="mt-8 flex flex-wrap items-baseline gap-x-8 gap-y-3">
+        <div className="mt-9 flex flex-wrap items-baseline gap-x-8 gap-y-3">
           <div>
             <p className="label">{t("hero.thisMonth")}</p>
             <p className="mt-1 text-[22px] sm:text-[26px] font-medium text-ink capitalize">
               {monthName}
             </p>
           </div>
-          <div>
+          <div className="hero-stat-sep">
             <p className="label">{t("hero.peakCount")}</p>
             <p className="mt-1 text-[22px] sm:text-[26px] font-medium text-ink tabular-nums">
               {peakCount} <span className="text-ink/55 text-base font-normal">{t("hero.items")}</span>
             </p>
           </div>
         </div>
+
+        <p className="hero-notice">
+          <span className="hero-notice__glyph serif-italic" aria-hidden>❦</span>
+          <span>
+            {t("hero.notice")}{" "}
+            <a href="#disclaimer" className="hero-notice__link">{t("hero.noticeLink")}</a>
+          </span>
+        </p>
       </div>
     </section>
   );

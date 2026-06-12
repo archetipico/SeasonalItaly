@@ -25,7 +25,7 @@ export function Row({
       data-dim={dim ? "true" : "false"}
       style={{ animationDelay: `${Math.min(index, 60) * 6}ms` }}
     >
-      <div className="row__name" title={item.note ?? undefined}>
+      <div className="row__name">
         <span>{item.name}</span>
         {item.imported && <span className="row__tag">{t("row.import")}</span>}
       </div>

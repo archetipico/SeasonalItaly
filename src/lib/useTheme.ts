@@ -16,7 +16,7 @@ function readCookie(): Mode | null {
 function applyMode(next: Mode) {
   document.documentElement.classList.toggle("dark", next === "dark");
   const meta = document.querySelector('meta[name="theme-color"]');
-  if (meta) meta.setAttribute("content", next === "dark" ? "#16191b" : "#f4ecdb");
+  if (meta) meta.setAttribute("content", next === "dark" ? "#0f1411" : "#f4ecdb");
 }
 
 function writeCookie(next: Mode) {

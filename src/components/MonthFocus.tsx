@@ -34,7 +34,6 @@ function FocusList({
           <li
             key={it.name}
             className={cn("focus-pill", kind === "frutta" ? "focus-pill--fruit" : "focus-pill--veg")}
-            title={it.note ?? undefined}
           >
             <span className="focus-pill__dot" />
             <span>{it.name}</span>

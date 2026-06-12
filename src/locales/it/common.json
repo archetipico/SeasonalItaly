@@ -2,9 +2,14 @@
   "brand": "SeasonalItaly",
   "nav": {
     "home": "home",
-    "homeTitle": "torna a archetipico.github.io",
-    "disclaimer": "disclaimer",
-    "disclaimerTitle": "leggi il disclaimer"
+    "homeTitle": "torna a archetipico.github.io"
+  },
+  "gate": {
+    "title": "Prima di entrare",
+    "lead": "Leggi questa nota e procedi solo se sei d'accordo.",
+    "scroll": "scorri",
+    "scrollCta": "Scorri e leggi tutto",
+    "accept": "Accetta e continua"
   },
   "months": {
     "long": ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"],
@@ -17,7 +22,9 @@
     "thisMonth": "questo mese",
     "peakCount": "in piena stagione",
     "items": "alimenti",
-    "disclaimerCta": "Leggi il disclaimer prima di procedere"
+    "eyebrow": "calendario di stagionalità",
+    "notice": "Contenuti a solo scopo divulgativo: non sono consulenza medica, nutrizionale o di sicurezza alimentare. Prendili come uno spunto e, nel dubbio, confrontati con un medico o un professionista qualificato.",
+    "noticeLink": "Leggi il disclaimer"
   },
   "focus": {
     "label": "il mese in corso",

@@ -33,14 +33,6 @@ export function Header() {
           <p className="hidden md:block text-[13px] text-ink/55 tabular-nums">
             {day} {monthName} {year}
           </p>
-          <a
-            href="#disclaimer"
-            className="info-btn"
-            aria-label={t("nav.disclaimerTitle")}
-            title={t("nav.disclaimer")}
-          >
-            <span aria-hidden className="serif-italic">i</span>
-          </a>
           <button
             type="button"
             onClick={toggle}

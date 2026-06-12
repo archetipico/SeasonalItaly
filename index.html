@@ -33,7 +33,7 @@
             : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
           if (pref === 'dark') document.documentElement.classList.add('dark');
           var meta = document.querySelector('meta[name="theme-color"]');
-          if (meta) meta.setAttribute('content', pref === 'dark' ? '#16191b' : '#f4ecdb');
+          if (meta) meta.setAttribute('content', pref === 'dark' ? '#0f1411' : '#f4ecdb');
           var l = document.cookie.match(/(?:^|; )lang=([^;]+)/);
           if (l) {
             var lang = decodeURIComponent(l[1]).slice(0, 2);
