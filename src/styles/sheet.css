@@ -1,0 +1,53 @@
+.sheet {
+  width: min(560px, calc(100% - 28px));
+  margin: auto;
+  border-radius: 10px;
+  background: var(--paper);
+  color: var(--text);
+}
+.sheet::backdrop { background: rgba(15, 10, 15, 0.55); }
+
+.sheet__body {
+  position: relative;
+  display: grid;
+  gap: 14px;
+  padding: 26px;
+}
+
+.sheet__close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  min-height: 44px;
+  font-weight: 600;
+}
+
+.sheet__name {
+  padding-right: 64px;
+  color: var(--a);
+  font: 700 clamp(2rem, 6vw, 2.8rem)/1.05 var(--display);
+  overflow-wrap: anywhere;
+}
+
+/* Drawn in the month's heading colour and the soft grey, cut against the paper. */
+.sheet__art {
+  --b: var(--soft);
+  --bg: var(--paper);
+  width: 88px;
+}
+
+.sheet__year {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 4px 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--rule);
+  color: var(--soft);
+  font-size: 17px;
+}
+.sheet__year [data-state="peak"] { color: var(--a); font-weight: 700; }
+.sheet__year [data-state="shoulder"] { color: var(--text); font-style: italic; }
+.sheet__year [data-now="true"] {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

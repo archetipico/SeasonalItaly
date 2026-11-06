@@ -1,0 +1,28 @@
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 18px 40px;
+  padding: clamp(28px, 4vw, 44px) clamp(20px, 4vw, 48px);
+  background: var(--bg);
+  color: var(--ink);
+  transition: background-color 0.4s;
+}
+
+.foot__brand { font: 700 clamp(1.7rem, 3.5vw, 2.4rem)/1.1 var(--display); }
+.foot__tagline { margin-top: 4px; }
+
+.foot__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 22px;
+}
+.foot__links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

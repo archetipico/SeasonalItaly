@@ -1,0 +1,31 @@
+/* Last child of the page: sticky keeps it in view and needs no padding to clear the footer. */
+.banner {
+  position: sticky;
+  bottom: 0;
+  z-index: 30;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0 16px;
+  padding: 8px 18px;
+  border-top: 1px solid var(--rule);
+  background: var(--paper);
+  box-shadow: 0 -6px 18px rgba(0, 0, 0, 0.08);
+  font-size: 15.5px;
+  line-height: 1.4;
+}
+.banner__text { text-wrap: pretty; }
+.banner__read {
+  flex: none;
+  min-height: 36px;
+}
+
+@media (max-width: 640px) {
+  .banner {
+    display: block;
+    font-size: 14.5px;
+  }
+  .banner__text { display: inline; }
+  .banner__read { min-height: 0; }
+}

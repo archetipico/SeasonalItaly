@@ -1,0 +1,104 @@
+{
+  "brand": "SeasonalItaly",
+  "gate": {
+    "title": "Prima di entrare",
+    "lead": "Leggi questa nota e procedi solo se sei d'accordo.",
+    "scroll": "scorri",
+    "scrollCta": "Scorri e leggi tutto",
+    "accept": "Accetta e continua"
+  },
+  "months": {
+    "long": [
+      "gennaio",
+      "febbraio",
+      "marzo",
+      "aprile",
+      "maggio",
+      "giugno",
+      "luglio",
+      "agosto",
+      "settembre",
+      "ottobre",
+      "novembre",
+      "dicembre"
+    ],
+    "short": [
+      "gen",
+      "feb",
+      "mar",
+      "apr",
+      "mag",
+      "giu",
+      "lug",
+      "ago",
+      "set",
+      "ott",
+      "nov",
+      "dic"
+    ]
+  },
+  "cover": {
+    "issue": "Numero {{n}} di 12",
+    "lead": "{{n}} alimenti italiani in piena stagione.",
+    "previous": "Indietro: {{month}}",
+    "next": "Avanti: {{month}}",
+    "notice": "Contenuti a solo scopo divulgativo: non sono consulenza medica, nutrizionale o di sicurezza alimentare. Per qualsiasi dubbio rivolgiti a un medico o a un professionista qualificato."
+  },
+  "issue": {
+    "search": "Cerca un alimento",
+    "fruit": "Frutta",
+    "veg": "Verdura",
+    "soon": "Stanno per arrivare",
+    "ending": "Stanno per finire",
+    "away": "Da fuori Italia"
+  },
+  "search": {
+    "count": "{{n}} voci",
+    "countOne": "{{n}} voce",
+    "noResult": "Nessun alimento si chiama \"{{q}}\".",
+    "back": "Torna a {{month}}"
+  },
+  "sheet": {
+    "close": "Chiudi",
+    "peak": "Piena stagione:",
+    "shoulder": "Inizio o fine stagione:",
+    "imported": "Importato.",
+    "allYear": "tutto l'anno",
+    "and": "e"
+  },
+  "tiles": {
+    "title": "Sfoglia i mesi"
+  },
+  "footer": {
+    "tagline": "Frutta e verdura italiane, mese per mese.",
+    "label": "Altri collegamenti",
+    "backToTop": "Torna in alto",
+    "home": "archetipico.github.io",
+    "homeTitle": "torna a archetipico.github.io"
+  },
+  "disclaimer": {
+    "label": "Avviso",
+    "banner": "Qui trovi solo le stagioni, non se un alimento è sicuro per te: per questo chiedi a un medico o a un esperto.",
+    "open": "Leggi il disclaimer",
+    "title": "Disclaimer",
+    "close": "Chiudi",
+    "sections": [
+      {
+        "title": "Che cos'è",
+        "text": "SeasonalItaly è un sito di sola divulgazione culturale: indica i periodi in cui frutta e verdura sono generalmente di stagione in Italia, e nient'altro. I calendari sono indicativi e possono contenere errori o omissioni: la disponibilità reale cambia con la regione, la varietà, il clima e l'annata."
+      },
+      {
+        "title": "Che cosa non è",
+        "text": "Nessun contenuto è consulenza medica, nutrizionale, agronomica o di sicurezza alimentare. Il sito non dice se un alimento, o una sua parte, è commestibile, sicuro o adatto a te, né come riconoscerlo, raccoglierlo, conservarlo, prepararlo o consumarlo. La presenza di un alimento nel calendario non significa che sia sicuro per chiunque, e l'assenza di un'avvertenza non significa che non ci siano rischi."
+      },
+      {
+        "title": "Rischi e a chi chiedere",
+        "text": "Allergie, intolleranze, patologie, gravidanza, farmaci e specie spontanee o selvatiche possono comportare rischi gravi, anche mortali, che qui non sono trattati. Per qualsiasi dubbio, sulla tua alimentazione, sulla tua salute o per qualunque altro motivo, rivolgiti a un esperto qualificato: a un medico o a un nutrizionista per la salute e l'alimentazione, a un micologo per funghi e specie selvatiche."
+      },
+      {
+        "title": "Responsabilità",
+        "text": "I contenuti sono pubblicati in buona fede, senza alcuna garanzia di completezza, accuratezza o aggiornamento. Usi il sito a tuo rischio e sotto la tua responsabilità: nei limiti massimi consentiti dalla legge, l'autore non risponde di danni, decisioni o conseguenze derivanti dall'uso di questi contenuti o dall'avervi fatto affidamento. Se non accetti queste condizioni, non usare il sito."
+      }
+    ]
+  }
+}
